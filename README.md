@@ -1,5 +1,6 @@
 # OpenVPN status script
   _Scrip based on [Simple OpenVPN Server Statistics](https://sigterm.sh/2009/07/16/simple-openvpn-server-statistics/)_
+  
   The script downloads openvpn status data and saves it in json format. It stores data about connected clients and accumulates it. It is possible to display current status data openvpn, stored openvpn data. Additionally, it is possible to run a periodic state update at a specified interval to use the script as a service.
 
 Before running, ensure your server is actually saving the stats somewhere (/etc/openvpn/openvpn.status in my example):
